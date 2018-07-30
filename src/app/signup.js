@@ -60,7 +60,7 @@ class ModalSignupForm extends Component {
         </Modal.Content>
        <Modal.Content>
       <Form>
-        <div className="two fields"> 
+        <div className="two fields">
           <Form.Field>
              <label>First Name</label>
              <input placeholder='First Name' ref={this.handleRef} />
@@ -70,7 +70,7 @@ class ModalSignupForm extends Component {
             <input placeholder='Last Name' ref={this.handleRef} />
           </Form.Field>
         </div>
-        <div className="two fields"> 
+        <div className="two fields">
           <Form.Field>
             <label>Email</label>
             <input placeholder='Email' ref={this.handleRef} />
@@ -86,7 +86,7 @@ class ModalSignupForm extends Component {
             <input placeholder='Password' ref={this.handleRef} />
           </Form.Field>
           <Form.Field>
-            <label>COnmfirm Password</label>
+            <label>Confirm Password</label>
             <input placeholder='Confirm Password' ref={this.handleRef} />
           </Form.Field>
         </div>
