@@ -138,7 +138,7 @@ app.get('/calories', (req, res) => {
 //   fillIngredients: false,
 //   ingredients: 'apples,flour,sugar'
 // };
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`BudgetLife listening on port: ${port}`);
